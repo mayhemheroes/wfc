@@ -1,0 +1,5 @@
+project: rnshah9/mayhem-wfc
+target: wfc
+
+cmds:
+  - cmd: /repo/wfc -m overlapping @@ out
