@@ -2,4 +2,4 @@ project: wfc
 target: wfc
 
 cmds:
-  - cmd: /repo/wfc -m overlapping @@ out
+  - cmd: /wfc -m overlapping @@ out
