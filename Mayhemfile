@@ -1,0 +1,5 @@
+project: wfc
+target: wfc
+
+cmds:
+  - cmd: /wfc -m overlapping @@ out
