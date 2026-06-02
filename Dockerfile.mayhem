@@ -8,7 +8,7 @@ RUN cp stb/*.h /usr/local/include/
 
 COPY . /repo
 WORKDIR /repo
-RUN make -j8
+RUN make wfctool -j8
 
 FROM ubuntu:22.04 as package
 COPY --from=builder /repo/wfc /
